@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+<!--            <Button-->
+<!--                android:id="@+id/termsButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="72dp"-->
+<!--                android:onClick="goTerms"-->
+<!--                android:text="Terms"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/coursesButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="76dp"-->
+<!--                android:onClick="goCourses"-->
+<!--                android:text="Courses"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display2"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"/>-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/assessmentsButton"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="72dp"-->
+<!--                android:onClick="goAssessments"-->
+<!--                android:text="Assessments"-->
+<!--                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />-->
+
+            <Button
+                android:id="@+id/takeReading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:onClick="goTakeReading"
+                android:text="Take Reading"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"/>
+
+            <Button
+                android:id="@+id/readingsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:onClick="goReadings"
+                android:text="Readings"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+            android:id="@+id/reportsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:onClick="goReports"
+            android:text="Reports"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+            <Button
+                android:id="@+id/alertsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="72dp"
+                android:onClick="goAlerts"
+                android:text="Alerts"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
